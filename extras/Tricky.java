@@ -12,12 +12,11 @@
  * - Each statement needs a semicolon at the end.
  * - Parentheses and braces must be balanced.
  */
-public class Tricky
-    public static main(String args) {
-        System.out.println(Hello world);
-        system.out.Pritnln("Do you like this program"?);
-        System.out.println()
-
-        System.println("I wrote it myself.";
-    {
+ public class Tricky {
+    public static void main(String args[]) {
+        System.out.println("Hello world");
+        System.out.println("Do you like this program?");
+        System.out.println();
+        System.out.println("I wrote it myself.");
+    }
 }
