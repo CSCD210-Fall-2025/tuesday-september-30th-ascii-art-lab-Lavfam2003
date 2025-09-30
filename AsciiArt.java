@@ -9,7 +9,15 @@
  * See README.md for detailed instructions.
  */
 public class AsciiArt {
-    public static void main(String[] args) {
-        // TODO: Print your ASCII art here, one line per System.out.println/print call
-    }
+ public static void drawCone() {
+    System.out.println("   /\\");
+    System.out.println("  /  \\");
+    System.out.println(" /    \\");
+}   
+public static void main(String[] args) {
+    drawCone();
+    System.out.println("|      |");
+    System.out.println("+------+");
+    drawCone();
+}
 }
